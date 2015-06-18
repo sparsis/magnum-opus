@@ -1,0 +1,2 @@
+# magnum-opus
+Conhecimentos Gerais

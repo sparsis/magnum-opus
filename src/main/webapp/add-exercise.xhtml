@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="www.w3.org/1999/xhtml"
+	  xmlns:h="http://java.sun.com/jsf/html"
+	  xmlns:f="http://java.sun.com/jsf/core"
+	  xmlns:ui="http://java.sun.com/jsf/facelets">
+	
+	<h:head>
+		<meta charset="UTF-8" />
+		<title>Magnum Opus - Adicionar Exercício</title>
+	</h:head>
+	
+	<h:body>
+		<h1>Adicionar Exercício</h1>
+		<h:form>
+			<fieldset>
+				<legend>Adicionar</legend>
+				
+				<h:outputLabel for="question" value="Questão: " />
+				<h:inputText id="question" value="#{exerciseMB.exercise.question}" />
+				
+				<h:commandButton value="adicionar questão" />
+			</fieldset>
+		</h:form>
+		
+		<h:outputText value="#{exerciseMB.exercise.question}" />
+	</h:body>
+</html>
